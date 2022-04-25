@@ -1,0 +1,22 @@
+{
+  "name": "@saltcorn/colorpick",
+  "version": "0.1.0",
+  "description": "Color editor based on ColorPick.js",
+  "main": "index.js",
+  "dependencies": {
+    "@saltcorn/data": "^0.3.3",
+    "@saltcorn/markup": "^0.2.0"
+  },
+  "author": "Tom Nielsen",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "repository": "github:saltcorn/colorpick",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
