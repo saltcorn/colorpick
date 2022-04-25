@@ -39,7 +39,9 @@ const colorPick = {
       }) +
       script(
         domReady(`$('#colpick${text(nm)}${rndid}').colorPick({
-            ${typeof v === "undefined" ? "" : `initialColor: ${text_attr(v)},`}
+            ${
+              typeof v === "undefined" ? "" : `initialColor: "${text_attr(v)}",`
+            }
             ${attrs?.allowCustomColor ? "allowCustomColor: true," : ""}
             onColorSelected: function(){
               this.element.css({'backgroundColor': this.color, 'color': this.color});
