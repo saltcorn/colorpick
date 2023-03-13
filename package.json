@@ -1,6 +1,6 @@
 {
   "name": "@saltcorn/colorpick",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Color editor based on ColorPick.js",
   "main": "index.js",
   "dependencies": {
